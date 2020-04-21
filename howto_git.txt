@@ -1,0 +1,33 @@
+change into project directory
+
+$ cd project_dir
+
+$ touch README.md
+
+$ echo this is proj new >> README.md 
+
+$ git init
+
+add a single file
+
+$ git add file1 file2
+
+add all files and all folders recursively
+
+$ git add -A
+
+commit a message to added files (all files must have commit message)
+
+$ git commit -am"this is my generic message"
+
+if new repo then
+
+$ git remote add origin https://github.com/azhan619/test_repo.git
+
+$ git push -u origin master
+
+else push to repo
+
+$ git push
+
+fi
